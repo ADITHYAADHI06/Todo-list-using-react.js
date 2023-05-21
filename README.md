@@ -1,9 +1,5 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -11,60 +7,30 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+The objective of this project is to develop a dynamic and interactive To-Do List application using React.js. The application will allow users to create, manage, and track their tasks efficiently. It will provide features such as task creation, task editing, task completion, task filtering, and task deletion.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Key Features:
 
-### `npm run build`
+User Interface: Design and implement a visually appealing and user-friendly interface for the To-Do List application. The interface should include a task input field, a list of tasks, and options to interact with each task.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Task Creation: Allow users to add new tasks to the list. Provide an input field where users can enter the task description and a button to submit the task. Upon submission, the task should be added to the list of tasks.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Task Editing: Enable users to modify task details. Implement an edit functionality that allows users to change the description of an existing task. This can be achieved by providing an edit button or by enabling inline editing directly on the task item.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Task Completion: Implement the ability for users to mark tasks as complete. Provide a checkbox or a button for users to indicate that a task has been completed. Completed tasks should be visually distinguished from active tasks.
 
-### `npm run eject`
+Task Filtering: Allow users to filter tasks based on their completion status. Provide options such as "All Tasks," "Active Tasks," and "Completed Tasks" to filter the task list accordingly. This will help users focus on specific subsets of their tasks.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Task Deletion: Enable users to delete tasks from the list. Provide a delete button or an icon next to each task item, allowing users to remove tasks that are no longer needed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Task Persistence: Implement functionality to persist the task data. This can be achieved by using local storage to store and retrieve task data. Ensure that the tasks remain intact even after refreshing or closing the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Responsive Design: Ensure that the application is responsive and works well across different devices and screen sizes. It should adapt to various platforms, including desktops, tablets, and mobile devices, providing a seamless user experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Error Handling: Implement proper error handling mechanisms to handle scenarios such as network errors, data validation errors, or unexpected issues gracefully. Display error messages or fallback options to guide users in case of any problems.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+By developing a To-Do List application using React.js, this project aims to create a responsive, user-friendly, and feature-rich task management tool that helps users stay organized and productive.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
